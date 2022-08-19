@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+
+}
+h1 {  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;  
+    line-height: 1.5; 
+}
+h2{
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+#title.container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.colored-part{
+    background-color: #ff4c68;
+    color: whitesmoke; 
+}
+.white-part{
+    background-color:#fff;
+}
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+    font-family: "montserrat-light";
+}
+/* Download buttons */
+.button-pos{
+    margin: 7% 5% 5% 0;
+}
+
+/* Images  */
+.iphoneimg{
+    transform: rotate(25deg);
+    max-width: 60%;
+    position: absolute;
+    right: 30%;
+}
+.iphoneimgclass{
+    position: relative;
+
+}
+/* Features sections */
+.feature-box{
+    padding: 5%;
+}
+#features{
+    position: relative;
+}
+/* fontawesome imgs */
+.fa-circle-check{
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+.fa-circle-check:hover{
+    color: #ff4c68;
+}
+.fa-bullseye{
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+.fa-bullseye:hover{
+    color: #ff4c68;
+}
+.fa-heart{
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+.fa-heart:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* Press section */
+
+#pricing{
+    padding: 100px;
+}
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .iphoneimg{
+        position:static;
+        transform: rotate(0);
+    }
+    .iphoneimgclass{
+        position: static;
+    }
+}
+/* cta section */
+.ctah3{
+    font-family: 'Montserrat-bold';
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+/* footer section */
+.footericons{
+    margin:20px; 
+}
